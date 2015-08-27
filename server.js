@@ -10,9 +10,6 @@ app.set('views', __dirname + '/views');
 // Now lets set the view engine itself so that express knows that we are using ejs as opposed to another templating engine like jade
 app.set('view engine', 'ejs');
 
-app.get('/Xgo', function(request, response) {
-  response.render("Xgo");
-})
 
 app.get('/TaskManager', function(request, response) {
   response.render("TaskManager");
