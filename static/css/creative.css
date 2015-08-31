@@ -179,11 +179,11 @@ header {
     text-align: center;
     color: #fff;
     background-image: url(../img/roadtravelled.jpg);
-    background-position: center no-repeat;
-    -webkit-background-size: 450px 600px;
-    -moz-background-size: 450px 600px;
-    background-size: 450px 600px;
-    -o-background-size: 450px 600px;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 header .header-content {
