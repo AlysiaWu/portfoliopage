@@ -178,12 +178,12 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
-    background-position: top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-image: url(../img/roadtravelled.jpg);
+    background-position: center no-repeat;
+    -webkit-background-size: 450px 600px;
+    -moz-background-size: 450px 600px;
+    background-size: 450px 600px;
+    -o-background-size: 450px 600px;
 }
 
 header .header-content {
@@ -191,6 +191,7 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+     z-index: 9999;
 }
 
 header .header-content .header-content-inner h1 {
